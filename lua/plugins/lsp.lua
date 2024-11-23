@@ -1,11 +1,14 @@
 return {
   {
     "neovim/nvim-lspconfig",
+    ---@class PluginLspOpts
     opts = {
+      ---@type lspconfig.options
       servers = {
-        ruff_lsp = {
-          mason = false,
-        },
+        pyright = {},
+        -- ruff = {
+        --   mason = false,
+        -- },
       },
     },
   },
