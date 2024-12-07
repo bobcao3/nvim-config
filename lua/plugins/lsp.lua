@@ -9,6 +9,9 @@ return {
         -- ruff = {
         --   mason = false,
         -- },
+        slangd = {
+          filetypes = { "shaderslang" },
+        },
       },
     },
   },
