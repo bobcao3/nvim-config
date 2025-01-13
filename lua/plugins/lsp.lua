@@ -5,7 +5,10 @@ return {
     opts = {
       ---@type lspconfig.options
       servers = {
-        pyright = {},
+        pyright = {
+          mason = false,
+        },
+        basedpyright = {},
         -- ruff = {
         --   mason = false,
         -- },
